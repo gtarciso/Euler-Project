@@ -6,7 +6,7 @@ int indice = 0;
 int vetor[1000];
 int aux1 = 1, aux2 = 1;
 
-void fibonnacci (int value1, int value2) {
+void fibonacci (int value1, int value2) {
     int aux;
     aux = value1;
     value1 = aux+value2;
@@ -14,13 +14,13 @@ void fibonnacci (int value1, int value2) {
     vetor[indice] = value1;
     indice++;
     if (value1 <= MAX_VALUE) {
-        fibonnacci (value1, value2);
+        fibonacci (value1, value2);
     }
     else return;
 }
 
 int main () {
-    fibonnacci (aux1, aux2);
+    fibonacci (aux1, aux2);
     int soma = 0;
     int i;
     for (i = 0; i <= indice; i++) {
