@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdint.h>
 
 #define MAX_VALUE 1000
 
