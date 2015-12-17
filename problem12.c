@@ -16,8 +16,6 @@ int main() {
     for (int i = 0; i <= 2*MAX_NUMBER; i++) {
         triangular += i;
     }
-    printf("\n%d\n", triangular);
-    printf("teste\n");
     int aux = 0;
     int j = 2*MAX_NUMBER;
     while ( aux < MAX_NUMBER) {
@@ -27,17 +25,13 @@ int main() {
         y = verificaPrimo(triangular);
         if (y == 1) {
             calculaMDC(triangular, 1);
-            printf("%d %d\n", indice, cont);
-            printf("\n\n %d \n\n", triangular);
             aux = calculaQuantDivisores();
-            printf("\n%d\n", aux);
         }
         j++;
         if (aux < MAX_NUMBER) {
             triangular += j;
         } else {
-           printf("\n\n\n%d \n\n\n", triangular);
-           return 0;
+           break;
         }
         aux = 0;
     }
