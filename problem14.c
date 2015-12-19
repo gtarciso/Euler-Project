@@ -6,7 +6,7 @@ int collatz(long int number);
 
 int maior;
 long long int maiorNum;
-long long int aux;
+int aux;
 
 int main() {
     maiorNum = 0;
