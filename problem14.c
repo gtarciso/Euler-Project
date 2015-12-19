@@ -34,9 +34,6 @@ int collatz(long int number) {
             number = ((number * 3) + 1);
             cont = cont + 1;
         }
-        if (number == 1) {
-            return cont;
-        }
     }
     return cont;
 }
