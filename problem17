@@ -1,0 +1,33 @@
+
+  1 = one - 3 letters    | 11 = eleven - 6 letters
+  2 = two - 3 letters    | 12 = twelve - 6 letters
+  3 = three - 5 letters  | 13 = thirteen - 8 letters
+  4 = four - 4 letters   | 14 = fourteen - 8 letters
+  5 = five - 4 letters   | 15 = fifteen - 7 letters 
+  6 = six - 3 letters    | 16 = sixteen - 7 letters
+  7 = seven - 5 letters  | 17 = seventeen - 9 letters
+  8 = eight - 5 letters  | 18 = eighteen - 8 letters
+  9 = nine - 4 letters   | 19 = nineteen - 8 letters
+  10 = ten - 3 letters   | 20 = twenty - 6 letters
+  one to nine = 36
+  one to twenty = 106*10 = 1060
+  twenty = 36+10*6 = 96*10 = 960
+  thirty = 36+10*6 = 96*10 = 960
+  forty = 36+10*5 = 86*10 = 860
+  fifty = 36+10*5 = 86*10 = 860
+  sixty = 36+10*5 = 86*10 = 860
+  seventy = 36+10*7 = 106*10 = 1060
+  eighty = 36+10*6 = 96*10 = 960
+  ninety = 36+10*6 = 96*10 = 960
+  one hundred = 10 + "one hundred and" = 13*99 = 1297
+  two hundred = 10 + "two hundred and" = 13*99 = 1297
+  three hundred = 12 + "three hundred and" = 15*99 = 1497
+  four hundred = 11 + "four hundred and" = 14*99 = 1397
+  five hundred = 11 + "five hundred and" = 14*99 = 1397
+  six hundred = 10 + "six hundred and" = 13*99 = 1297
+  seven hundred = 12 + "seven hundred and" = 15*99 = 1497
+  eight hundred = 12 + "eight hundred and" = 15*99 = 1497
+  nine hundred = 11 + "nine hundred and" = 14*99 = 1397
+  one thousand = 11
+
+  total = 21124
